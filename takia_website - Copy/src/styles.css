@@ -1,0 +1,93 @@
+/* For Webkit-based browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:rgb(255, 133, 81);
+}
+
+* {
+  font-family: 'Verdana', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFB07F;
+
+}
+.header{
+  background-color:rgb(255, 148, 148);
+}
+
+.header .navbar-brand {
+  color: #333; /* Set your desired font color */
+  padding: 0.7%;
+}
+
+.header .navbar-brand:hover {
+  color: white; /* Set your desired font color */
+  font-weight: bold; /* Set your desired font weight */
+  padding: 0.7%;
+}
+
+.header .btn {
+  background-color:  #F31559; /* Set your desired button background color */
+  color: black; /* Set your desired button font color */
+  margin: 1%;
+}
+
+.discountDeal {
+  color: white;
+  font-size: large;
+  font: 300 1.5em/1.5 Verdana;
+  background-color: black;
+  text-align: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+/* 
+.web-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.web-nav ul {
+  justify-content: center;
+  padding: 5%;
+  width: 800px; 
+  list-style: none;
+}
+
+.web-nav ul li {
+  color: white;
+  display:flex;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.web-nav ul li a {
+  color: white;
+  font: 500 1.5em/1.5 Verdana;
+  text-decoration: none;
+  display: block;
+}
+
+.web-nav ul li a:hover {
+  background-color:rgb(242, 190, 34);
+} */
+

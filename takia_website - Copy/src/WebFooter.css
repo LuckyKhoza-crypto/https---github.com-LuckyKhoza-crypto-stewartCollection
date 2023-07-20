@@ -1,0 +1,49 @@
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;  
+    background-color: #F3AA60; 
+    color: white;
+    overflow: hidden;
+    display: flex;
+    margin: auto auto;
+    }
+
+.contri {
+    text-align: center;
+    font-weight: 200;
+    padding: 0.5%;
+    size: 2em;
+    margin: auto auto;
+}
+
+.footerLogo {
+    margin: auto auto;
+    width: 15%;
+    margin: 0.5%;
+    border-radius: 5%;
+}
+
+.paymentType {
+    margin: auto auto;
+    list-style: none;
+    display: inline-flex;
+}
+
+.paymentType ul {
+    display: inline-flex;
+    width: 100%;
+}
+
+ul li {
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li img {
+    width: 80px;
+    padding: 10px;
+    border-radius: 10em;
+}
